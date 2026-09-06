@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-06",
+  "public_base_url": "https://reality-formatting-tee-developed.trycloudflare.com",
+  "sites": [
+    {
+      "slug": "il-giamaranto",
+      "lead_name": null,
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-giamaranto.html",
+      "file_size_kb": 13.3,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+      ],
+      "lighthouse_mobile_score": 100,
+      "lighthouse_a11y": 97,
+      "lighthouse_bp": 96,
+      "lighthouse_seo": 100,
+      "lighthouse_lcp": "0.9 s",
+      "lighthouse_fcp": "0.9 s",
+      "lighthouse_cls": "0",
+      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
+      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-giamaranto.html",
+      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-giamaranto.html"
+    },
+    {
+      "slug": "il-parco",
+      "lead_name": null,
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-parco.html",
+      "file_size_kb": 13.3,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+      ],
+      "lighthouse_mobile_score": 100,
+      "lighthouse_a11y": 97,
+      "lighthouse_bp": 96,
+      "lighthouse_seo": 100,
+      "lighthouse_lcp": "1.1 s",
+      "lighthouse_fcp": "1.1 s",
+      "lighthouse_cls": "0",
+      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
+      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-parco.html",
+      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-parco.html"
+    },
+    {
+      "slug": "osteria-de-mercati",
+      "lead_name": null,
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/osteria-de-mercati.html",
+      "file_size_kb": 13.3,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+      ],
+      "lighthouse_mobile_score": 100,
+      "lighthouse_a11y": 97,
+      "lighthouse_bp": 96,
+      "lighthouse_seo": 100,
+      "lighthouse_lcp": "0.9 s",
+      "lighthouse_fcp": "0.9 s",
+      "lighthouse_cls": "0",
+      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
+      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/osteria-de-mercati.html",
+      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/osteria-de-mercati.html"
+    },
+    {
+      "slug": "spaghettoria-s-artea",
+      "lead_name": null,
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/spaghettoria-s-artea.html",
+      "file_size_kb": 13.3,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+      ],
+      "lighthouse_mobile_score": 100,
+      "lighthouse_a11y": 97,
+      "lighthouse_bp": 96,
+      "lighthouse_seo": 100,
+      "lighthouse_lcp": "1.0 s",
+      "lighthouse_fcp": "1.0 s",
+      "lighthouse_cls": "0",
+      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
+      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/spaghettoria-s-artea.html",
+      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/spaghettoria-s-artea.html"
+    },
+    {
+      "slug": "trattoria-loluda",
+      "lead_name": null,
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/trattoria-loluda.html",
+      "file_size_kb": 13.3,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+      ],
+      "lighthouse_mobile_score": 100,
+      "lighthouse_a11y": 97,
+      "lighthouse_bp": 96,
+      "lighthouse_seo": 100,
+      "lighthouse_lcp": "0.9 s",
+      "lighthouse_fcp": "0.9 s",
+      "lighthouse_cls": "0",
+      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
+      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/trattoria-loluda.html",
+      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/trattoria-loluda.html"
+    }
+  ]
+}
