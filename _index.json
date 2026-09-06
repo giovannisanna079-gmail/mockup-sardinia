@@ -1,101 +1,65 @@
 {
   "generated_at": "2026-09-06",
-  "public_base_url": "https://reality-formatting-tee-developed.trycloudflare.com",
   "sites": [
     {
-      "slug": "il-giamaranto",
-      "lead_name": null,
-      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-giamaranto.html",
-      "file_size_kb": 13.3,
-      "external_resources": [
-        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
-      ],
-      "lighthouse_mobile_score": 100,
-      "lighthouse_a11y": 97,
-      "lighthouse_bp": 96,
-      "lighthouse_seo": 100,
-      "lighthouse_lcp": "0.9 s",
-      "lighthouse_fcp": "0.9 s",
-      "lighthouse_cls": "0",
-      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
-      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-giamaranto.html",
-      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-giamaranto.html"
-    },
-    {
-      "slug": "il-parco",
-      "lead_name": null,
-      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-parco.html",
-      "file_size_kb": 13.3,
-      "external_resources": [
-        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
-      ],
-      "lighthouse_mobile_score": 100,
-      "lighthouse_a11y": 97,
-      "lighthouse_bp": 96,
-      "lighthouse_seo": 100,
-      "lighthouse_lcp": "1.1 s",
-      "lighthouse_fcp": "1.1 s",
-      "lighthouse_cls": "0",
-      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
-      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-parco.html",
-      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/il-parco.html"
-    },
-    {
-      "slug": "osteria-de-mercati",
-      "lead_name": null,
-      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/osteria-de-mercati.html",
-      "file_size_kb": 13.3,
-      "external_resources": [
-        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
-      ],
-      "lighthouse_mobile_score": 100,
-      "lighthouse_a11y": 97,
-      "lighthouse_bp": 96,
-      "lighthouse_seo": 100,
-      "lighthouse_lcp": "0.9 s",
-      "lighthouse_fcp": "0.9 s",
-      "lighthouse_cls": "0",
-      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
-      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/osteria-de-mercati.html",
-      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/osteria-de-mercati.html"
-    },
-    {
       "slug": "spaghettoria-s-artea",
-      "lead_name": null,
+      "lead_name": "Spaghettoria S'Artea",
       "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/spaghettoria-s-artea.html",
-      "file_size_kb": 13.3,
+      "file_size_kb": 13.5,
       "external_resources": [
-        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+        "https://www.google.com/maps/search/?api=1&query=Via+Usai%2C+8%2C+07100+Sassari"
       ],
-      "lighthouse_mobile_score": 100,
-      "lighthouse_a11y": 97,
-      "lighthouse_bp": 96,
-      "lighthouse_seo": 100,
-      "lighthouse_lcp": "1.0 s",
-      "lighthouse_fcp": "1.0 s",
-      "lighthouse_cls": "0",
-      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
-      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/spaghettoria-s-artea.html",
-      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/spaghettoria-s-artea.html"
+      "lighthouse_mobile_score": null,
+      "lighthouse_runner": null,
+      "preview_url": "file:///Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/spaghettoria-s-artea.html"
     },
     {
       "slug": "trattoria-loluda",
-      "lead_name": null,
+      "lead_name": "Trattoria Loludà",
       "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/trattoria-loluda.html",
-      "file_size_kb": 13.3,
+      "file_size_kb": 13.5,
       "external_resources": [
-        "https://www.google.com/maps/search/?api=1&query=Sassari+07100"
+        "https://www.google.com/maps/search/?api=1&query=Via+Rockfeller%2C+59%2C+07100+Sassari"
       ],
-      "lighthouse_mobile_score": 100,
-      "lighthouse_a11y": 97,
-      "lighthouse_bp": 96,
-      "lighthouse_seo": 100,
-      "lighthouse_lcp": "0.9 s",
-      "lighthouse_fcp": "0.9 s",
-      "lighthouse_cls": "0",
-      "deploy_method": "cloudflared quick tunnel → trycloudflare.com (ephemeral, see HANDOFF.md)",
-      "public_url": "https://reality-formatting-tee-developed.trycloudflare.com/trattoria-loluda.html",
-      "preview_url": "https://reality-formatting-tee-developed.trycloudflare.com/trattoria-loluda.html"
+      "lighthouse_mobile_score": null,
+      "lighthouse_runner": null,
+      "preview_url": "file:///Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/trattoria-loluda.html"
+    },
+    {
+      "slug": "il-parco",
+      "lead_name": "Ristorante Il PARCO",
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-parco.html",
+      "file_size_kb": 13.5,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Via+Budapest%2C+43%2C+07100+Sassari"
+      ],
+      "lighthouse_mobile_score": null,
+      "lighthouse_runner": null,
+      "preview_url": "file:///Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-parco.html"
+    },
+    {
+      "slug": "osteria-de-mercati",
+      "lead_name": "Osteria De' Mercati",
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/osteria-de-mercati.html",
+      "file_size_kb": 13.5,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Via+Mercato%2C+2%2C+07100+Sassari"
+      ],
+      "lighthouse_mobile_score": null,
+      "lighthouse_runner": null,
+      "preview_url": "file:///Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/osteria-de-mercati.html"
+    },
+    {
+      "slug": "il-giamaranto",
+      "lead_name": "Il Giamaranto",
+      "file_path": "/Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-giamaranto.html",
+      "file_size_kb": 13.5,
+      "external_resources": [
+        "https://www.google.com/maps/search/?api=1&query=Via+Alghero%2C+69%2C+07100+Sassari"
+      ],
+      "lighthouse_mobile_score": null,
+      "lighthouse_runner": null,
+      "preview_url": "file:///Users/work/Documents/Obsidian Vault/AI-Memory/Sandbox/cold-outreach-smb-2026-09-06/sites/il-giamaranto.html"
     }
   ]
 }
