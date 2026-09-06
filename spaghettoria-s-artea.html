@@ -312,7 +312,7 @@
   document.querySelectorAll('[data-cta]').forEach(function(el){
     el.addEventListener('click',function(){
       // plug-in point for tracking (gtag / plausible / umami) in v0 we just console.log
-      try{ console.log('cta_click', el.getAttribute('data-cta'), 'Spaghettoria S'Artea'); }catch(e){}
+      try{ console.log('cta_click', el.getAttribute('data-cta'), "Spaghettoria S'Artea"); }catch(e){}
     });
   });
 </script>
