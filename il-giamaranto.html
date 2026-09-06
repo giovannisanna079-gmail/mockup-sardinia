@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Il Giamaranto — Cucina sarda creativa, ingrediente locale</title>
+<meta name="description" content="Il Giamaranto, Cucina sarda creativa, ingrediente locale. Via Alghero, 69, 07100 Sassari. Cucina Italiana. Prenota: +39 079 274 598.">
+<meta name="theme-color" content="#B23A2F">
+<style>
+  /* =========================================================
+     Il Giamaranto — site template
+     Designed by hephaestus / Aphrodite playbook
+     Constraints: 8px baseline, system fonts, 2 colors + neutral
+     ========================================================= */
+  :root{
+    --c-primary:#B23A2F;      /* terracotta — brand + CTA */
+    --c-primary-dark:#8E2C23;
+    --c-bg:#FAF7F2;           /* warm off-white */
+    --c-text:#1A1816;         /* warm black */
+    --c-muted:#6B5F58;
+    --c-line:#E7DFD6;
+    --r-sm:4px;
+    --r-md:8px;
+    --r-lg:16px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{font-size:16px;-webkit-text-size-adjust:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--c-text);
+    background:var(--c-bg);
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;cursor:pointer;border:0;background:none}
+  h1,h2,h3{font-weight:600;letter-spacing:-.01em;line-height:1.2}
+  h1{font-size:40px;letter-spacing:-.02em}
+  h2{font-size:24px}
+  h3{font-size:18px}
+  p{font-size:16px}
+  .container{max-width:960px;margin:0 auto;padding:0 16px}
+  /* 8px baseline */
+  .s-1{height:8px} .s-2{height:16px} .s-3{height:24px} .s-4{height:32px}
+  .s-5{height:40px} .s-6{height:48px} .s-8{height:64px} .s-10{height:80px}
+
+  /* --- header --- */
+  header{padding:16px 0;border-bottom:1px solid var(--c-line);background:var(--c-bg)}
+  .header-row{display:flex;align-items:center;justify-content:space-between}
+  .brand{font-weight:700;font-size:18px;letter-spacing:-.01em;color:var(--c-text)}
+  .brand-dot{display:inline-block;width:8px;height:8px;background:var(--c-primary);border-radius:50%;margin-right:8px;vertical-align:middle}
+  .header-phone{font-size:14px;color:var(--c-muted)}
+  .header-phone strong{color:var(--c-text);font-weight:600}
+
+  /* --- hero --- */
+  .hero{padding:48px 0 56px}
+  .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--c-primary);font-weight:600;margin-bottom:16px}
+  .hero h1{margin-bottom:16px;max-width:14ch}
+  .hero-sub{font-size:18px;color:var(--c-muted);max-width:42ch;margin-bottom:32px}
+  .cta-row{display:flex;gap:16px;flex-wrap:wrap}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:16px 24px;border-radius:var(--r-md);
+    font-weight:600;font-size:16px;
+    transition:background .15s ease;
+  }
+  .btn-primary{background:var(--c-primary);color:#fff}
+  .btn-primary:hover,.btn-primary:focus-visible{background:var(--c-primary-dark)}
+  .btn-secondary{background:transparent;color:var(--c-text);border:1px solid var(--c-line)}
+  .btn-secondary:hover{border-color:var(--c-text)}
+
+  /* --- meta strip --- */
+  .meta-strip{border-top:1px solid var(--c-line);border-bottom:1px solid var(--c-line);padding:24px 0;background:#fff}
+  .meta-strip .container{display:grid;grid-template-columns:1fr;gap:16px}
+  .meta-item{display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--c-muted)}
+  .meta-item strong{display:block;color:var(--c-text);font-weight:600;font-size:15px;margin-bottom:4px}
+  .meta-icon{flex-shrink:0;width:16px;height:16px;color:var(--c-primary);margin-top:2px}
+
+  /* --- section --- */
+  section{padding:64px 0}
+  .section-head{margin-bottom:40px;max-width:40ch}
+  .section-head h2{margin-bottom:8px}
+  .section-head p{color:var(--c-muted)}
+
+  /* --- menu --- */
+  .menu-list{display:grid;grid-template-columns:1fr;gap:8px}
+  .menu-item{
+    display:flex;justify-content:space-between;align-items:baseline;
+    padding:16px;border-bottom:1px dashed var(--c-line);
+  }
+  .menu-item:last-child{border-bottom:0}
+  .menu-name{font-weight:500}
+  .menu-desc{display:block;color:var(--c-muted);font-size:14px;margin-top:4px}
+  .menu-price{color:var(--c-primary);font-weight:600;white-space:nowrap;margin-left:16px}
+
+  /* --- social proof --- */
+  .reviews{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);padding:32px}
+  .reviews-grid{display:grid;grid-template-columns:1fr;gap:24px}
+  .review{font-size:15px;color:var(--c-text);line-height:1.6}
+  .review::before{content:"\201C";color:var(--c-primary);font-size:32px;line-height:0;display:inline-block;margin-right:4px;vertical-align:-8px}
+  .review-author{display:block;color:var(--c-muted);font-size:14px;margin-top:8px}
+
+  /* --- contact / map --- */
+  .contact-grid{display:grid;grid-template-columns:1fr;gap:32px}
+  .contact-card{
+    background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);padding:24px;
+  }
+  .contact-row{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--c-line)}
+  .contact-row:last-child{border-bottom:0}
+  .contact-label{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--c-muted);display:block;margin-bottom:4px}
+  .contact-value{font-size:16px;font-weight:500}
+  .map-frame{
+    background:var(--c-line);border-radius:var(--r-lg);height:240px;
+    display:flex;align-items:center;justify-content:center;color:var(--c-muted);font-size:14px;
+    background-image:
+      linear-gradient(45deg,#E7DFD6 25%,transparent 25%),
+      linear-gradient(-45deg,#E7DFD6 25%,transparent 25%),
+      linear-gradient(45deg,transparent 75%,#E7DFD6 75%),
+      linear-gradient(-45deg,transparent 75%,#E7DFD6 75%);
+    background-size:24px 24px;
+    background-position:0 0,0 12px,12px -12px,-12px 0;
+  }
+
+  /* --- booking strip --- */
+  .booking{background:var(--c-primary);color:#fff;padding:48px 0}
+  .booking h2{color:#fff;margin-bottom:8px}
+  .booking p{color:rgba(255,255,255,.85);margin-bottom:24px;max-width:40ch}
+  .booking .btn-primary{background:#fff;color:var(--c-primary)}
+  .booking .btn-primary:hover{background:#F2EBE3}
+
+  /* --- footer --- */
+  footer{padding:32px 0;border-top:1px solid var(--c-line);font-size:14px;color:var(--c-muted)}
+  .footer-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+  .footer-mockup-tag{font-size:12px;color:var(--c-muted)}
+
+  /* --- breakpoint (single, 768px) --- */
+  @media (min-width:768px){
+    h1{font-size:56px}
+    h2{font-size:32px}
+    .hero{padding:80px 0 96px}
+    .section-head{margin-bottom:56px}
+    .menu-list{grid-template-columns:1fr 1fr;gap:16px}
+    .meta-strip .container{grid-template-columns:repeat(3,1fr);gap:32px}
+    .reviews-grid{grid-template-columns:repeat(2,1fr);gap:32px}
+    .contact-grid{grid-template-columns:1fr 1fr;gap:32px}
+    section{padding:80px 0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-row">
+    <a href="#top" class="brand"><span class="brand-dot"></span>Il Giamaranto</a>
+    <a href="tel:+39079274598" class="header-phone"><strong>+39 079 274 598</strong></a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="container">
+    <p class="eyebrow">Italiana</p>
+    <h1>Il Giamaranto</h1>
+    <p class="hero-sub">Cucina sarda creativa, ingrediente locale. Nel cuore di Sassari — prenota in 30 secondi, vieni a tavola.</p>
+    <div class="cta-row">
+      <a href="tel:+39079274598" class="btn btn-primary" data-cta="prenota">Prenota un tavolo &rarr;</a>
+      <a href="#menu" class="btn btn-secondary">Vedi il menù</a>
+    </div>
+  </div>
+</section>
+
+<div class="meta-strip">
+  <div class="container">
+    <div class="meta-item">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div><strong>Dove</strong>Via Alghero, 69, 07100 Sassari</div>
+    </div>
+    <div class="meta-item">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+      <div><strong>Prenota</strong><a href="tel:+39079274598">+39 079 274 598</a></div>
+    </div>
+    <div class="meta-item">
+      <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <div><strong>Aperti</strong>Mar–Dom · Pranzo e Cena</div>
+    </div>
+  </div>
+</div>
+
+<section id="menu">
+  <div class="container">
+    <div class="section-head">
+      <h2>Il menù</h2>
+      <p>Una selezione dalla cucina — piatti di stagione, ingredienti sardi, porzioni oneste. Menù completo disponibile in sala.</p>
+    </div>
+    <div class="menu-list">
+      <!-- MENU_ITEMS -->
+      <div class="menu-item">
+        <div>
+          <span class="menu-name">Polpo arrosto, patate e olive nere</span>
+          <span class="menu-desc">Piatto signature della casa</span>
+        </div>
+        <span class="menu-price">€18</span>
+      </div>
+      <div class="menu-item">
+        <div>
+          <span class="menu-name">Fregola con arselle e bottarga</span>
+          <span class="menu-desc">Pasta fresca, ragù della tradizione</span>
+        </div>
+        <span class="menu-price">€17</span>
+      </div>
+      <div class="menu-item">
+        <div>
+          <span class="menu-name">Cacciucco di pesce alla sarda</span>
+          <span class="menu-desc">Materie prime del territorio</span>
+        </div>
+        <span class="menu-price">€22</span>
+      </div>
+      <div class="menu-item">
+        <div>
+          <span class="menu-name">Torta della nonna al limone</span>
+          <span class="menu-desc">Dolce della casa, chiusura perfetta</span>
+        </div>
+        <span class="menu-price">€7</span>
+      </div>
+      <!-- /MENU_ITEMS -->
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff">
+  <div class="container">
+    <div class="section-head">
+      <h2>Chi viene, torna</h2>
+      <p>Recensioni vere di clienti che hanno già prenotato.</p>
+    </div>
+    <div class="reviews">
+      <div class="reviews-grid">
+        <div class="review">
+          Atmosfera curata, piatti che parlano sardo. Tornerò sicuramente.
+          <span class="review-author">— Marco, Sassari</span>
+        </div>
+        <div class="review">
+          Servizio veloce, porzioni generose, qualità alta. Una certezza.
+          <span class="review-author">— Giulia, Porto Torres</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contatti">
+  <div class="container">
+    <div class="section-head">
+      <h2>Vieni a trovarci</h2>
+      <p>Prenota un tavolo o passa a salutarci. Siamo nel cuore di Sassari.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-row">
+          <div>
+            <span class="contact-label">Indirizzo</span>
+            <span class="contact-value">Via Alghero, 69, 07100 Sassari</span>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <span class="contact-label">Telefono</span>
+            <span class="contact-value"><a href="tel:+39079274598">+39 079 274 598</a></span>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <span class="contact-label">Orari</span>
+            <span class="contact-value">Mar–Dom · 12:30–15:00 / 19:30–23:00</span>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div>
+            <span class="contact-label">Cucina</span>
+            <span class="contact-value">Italiana</span>
+          </div>
+        </div>
+      </div>
+      <a class="map-frame" href="https://www.google.com/maps/search/?api=1&query=Via+Alghero%2C+69%2C+07100+Sassari" target="_blank" rel="noopener" aria-label="Apri su Google Maps">
+        Apri su Google Maps &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="booking">
+  <div class="container">
+    <h2>Prenota in 30 secondi</h2>
+    <p>Una telefonata e il tavolo è tuo. Niente commissioni, niente attese.</p>
+    <a href="tel:+39079274598" class="btn btn-primary" data-cta="prenota-bottom">Chiama +39 079 274 598 &rarr;</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-row">
+    <div>© <span id="y"></span> Il Giamaranto · Via Alghero, 69, 07100 Sassari</div>
+    <div class="footer-mockup-tag">Mockup dimostrativo</div>
+  </div>
+</footer>
+
+<script>
+  // minimal inline JS: year + CTA click beacon
+  document.getElementById('y').textContent = new Date().getFullYear();
+  document.querySelectorAll('[data-cta]').forEach(function(el){
+    el.addEventListener('click',function(){
+      // plug-in point for tracking (gtag / plausible / umami) in v0 we just console.log
+      try{ console.log('cta_click', el.getAttribute('data-cta'), 'Il Giamaranto'); }catch(e){}
+    });
+  });
+</script>
+
+</body>
+</html>
